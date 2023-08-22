@@ -1,4 +1,5 @@
 ﻿using OOP_Adventure.Src;
+using OOP_Adventure.Src.Map;
 using OOP_Adventure.Src.Text;
 using System;
 using System.Collections.Generic;
@@ -24,6 +25,8 @@ namespace OOP_Adventure
 
             Player player = new Player(name);
             Console.WriteLine(Text.Language.Welcome,player.Name);
+
+            var House = new House(player);
         }
     }
 }
