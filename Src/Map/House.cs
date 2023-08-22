@@ -12,6 +12,11 @@ namespace OOP_Adventure.Src.Map
 
         private readonly Random _rnd = new Random(1234);
 
+
+        public int Width { get; set; }
+        public int Height { get; set; }
+        public Room[] Rooms { get;private set; }
+
         public House(Player player)
         {
             Player = player;

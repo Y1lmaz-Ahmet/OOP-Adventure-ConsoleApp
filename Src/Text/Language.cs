@@ -11,7 +11,9 @@ namespace OOP_Adventure.Src.Text
         public string Welcome { get; protected set; } = "";
         public string ChooseYourName { get; protected set; } = "";
         public string DefaultName { get; protected set; } = "";
-        
+        public string DefaultRoomName { get; protected set; } = "";
+        public string DefaultRoomDescription { get; protected set; } = "";
+
 
     }
 }

@@ -50,6 +50,7 @@
     <Compile Include="Src\Map\Directions.cs" />
     <Compile Include="Src\Map\House.cs" />
     <Compile Include="Src\Map\House.Move.cs" />
+    <Compile Include="Src\Map\Room.cs" />
     <Compile Include="Src\Text\English.cs" />
     <Compile Include="Src\Text\Language.cs" />
     <Compile Include="Src\Text\Text.cs" />

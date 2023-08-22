@@ -13,6 +13,8 @@ namespace OOP_Adventure.Src.Text
             ChooseYourName = "Hello, what is your name?";
             DefaultName = "No Name";
             Welcome = "welcome {0} to your OOP Adventure!";
+            DefaultRoomName = "Room {0} ({1},{2})";
+            DefaultRoomDescription = "You are in a room with doors to the {0}.";
         }
     }
 }
